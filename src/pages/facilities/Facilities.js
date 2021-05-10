@@ -1,7 +1,7 @@
 function Facilities(){
     return(
         <div>
-            y
+            r
         </div>
     )
 }
