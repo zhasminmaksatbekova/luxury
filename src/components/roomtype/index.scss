@@ -2,9 +2,12 @@
 
 .room{
     background-color: $white;
+    padding-top: 82px;
     &__img{
-        width: 870px;
-        height: 490px;
+        min-height: 100%;
+        padding-left: 30px;
+    }
+    &__main-row{
         margin-bottom: 65px;
     }
     &__title{
@@ -17,12 +20,7 @@
     &__subtitle{
         @include font($black,$font-gar, bold, 72px, 60px);
         letter-spacing: 0.02em;
-        max-width: 590px;
-        &::before{
-            height: 335px;
-            width: 1px;
-            border: 2px solid #14274A;
-        }
+        max-width: 650px;
     }
     &__text{
         @include font($black,$font-mons, normal, 40px, 25px);
@@ -34,30 +32,17 @@
         background-color: $brown;
         padding: 18px 65px 20px;
         border: none;
-    }
-    &__description{
-        @include font($black,$font-gar, bold, 72px, 60px);
-        margin: 115px 0 26px;
-        &--midle{
-            @include font($black,$font-mons, normal, 37px, 30px);
-        }
-        &--small{
-            @include font($black,$font-mons, normal, 30px, 25px);
-            margin: 19px 0 23px;
+        transition: 0.3s;
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            background-color: rgba($color: #183963, $alpha: 1.0);
         }
     }
     &__content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    &__sign{
-        margin: 0 10px;
-    }
-    &__signs{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 110px;
+        margin-bottom: 65px;
+        border-left: 2px solid #14274A;
+        padding-left: 1px;
     }
 }
+

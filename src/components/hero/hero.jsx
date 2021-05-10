@@ -1,4 +1,5 @@
 import "./hero.scss"
+import Button from "../buttons"
 
 function Hero(){
     return(
@@ -12,6 +13,7 @@ function Hero(){
                         Book your stay and enjoy Luxury
                         redefined at the most affordable rates.
                     </p>
+                    <Button/>
                 </div>
             </div>
         </div>

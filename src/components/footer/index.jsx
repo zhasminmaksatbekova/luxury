@@ -56,6 +56,13 @@ function Footer(){
                                 </li>
                             </ul>
                         </div>
+                        <div className="col-7">
+                            <form action="" className="footer__form">
+                                <label className="footer__label" htmlFor="email">Subscribe to our newsletter</label>
+                                <input type="email" className="footer__input" placeholder="Email Address" required />
+                                <button className="footer__button">OK</button>
+                            </form>
+                        </div>
                         </div>
                     </div>
                 </div>

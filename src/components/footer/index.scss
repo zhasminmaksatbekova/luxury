@@ -17,8 +17,34 @@
     &__link{
         @include font(#FFFFFF, $font-mons, normal, 28px, 16px);
     }
+    &__item{
+        display: flex;
+        align-items: center;
+    }
     &__logo{
         margin-right: 25px;
+    }
+    &__label{
+        @include font(#FFFFFF, $font-mons, normal, 20px, 16px);
+    }
+    &__input{
+        margin-top: 30px;
+        background-color: transparent;
+        padding: 15px 70px 15px 15px;
+        border: 2px solid $brown;
+        color: #FFFFFF;
+        &::placeholder{
+            @include font(#FFFFFF, $font-mons, normal, 20px, 16px);
+            text-align: left;
+        }
+    }
+    &__button{
+        @include font($black, $font-mons, normal, 20px, 16px);
+        background-color: $brown;
+        padding: 14px 15px 16px;
+        &:hover{
+            cursor: pointer;
+        }
     }
 }
 

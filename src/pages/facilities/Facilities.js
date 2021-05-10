@@ -1,7 +1,11 @@
+import Hero from "../../components/hero/hero"
+import Facilitie from "../../components/facilities"
+
 function Facilities(){
     return(
         <div>
-            r
+            <Hero/>
+            <Facilitie/>
         </div>
     )
 }

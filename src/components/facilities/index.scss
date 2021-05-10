@@ -1,0 +1,15 @@
+@import "../global";
+
+.facilities{
+    padding-top: 82px;
+    &__title{
+        @include font($black, $font-gar, bold, 72px, 60px);
+        text-align: center;
+    }
+    &__text{
+        @include font($black, $font-mons, normal, 30px, 25px);
+        text-align: center;
+        max-width: 1540px;
+        margin: 34px 0 80px;
+    }
+}

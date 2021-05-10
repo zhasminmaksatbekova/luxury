@@ -7,6 +7,13 @@
     background-color: $brown;
     outline: none;
     border: none;
+    transition: 0.5s;
+    margin-top: 65px;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        background-color: rgba($color: #183963, $alpha: 1.0);
+    }
     &__svg{
         margin-right: 18px;;
         border-radius: 1px;
@@ -20,5 +27,5 @@
 .text{
     @include font(#FFFFFF,$font-mons, bold, 30px, 25px);
     letter-spacing: 0.05em;
-    margin: 80px 0 15px;
+    margin: 50px 0 15px;
 }

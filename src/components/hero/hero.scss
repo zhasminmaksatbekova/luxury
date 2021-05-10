@@ -8,14 +8,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     &__title{
-        @include font(#FFFFFF,$font-gar,bold, 185px, 150px);
+        @include font(#FFFFFF,$font-gar,bold, 170px, 150px);
         letter-spacing: 0.07em;
         &--small{
-            @include font(#FFFFFF,$font-mons,normal,61px,50px);
-            margin-top: 150px;
+            @include font(#FFFFFF,$font-mons,normal,57px,50px);
         }
         &--midle{
-            @include font(#FFFFFF,$font-mons,normal, 72px, 60px);
+            @include font(#FFFFFF,$font-gar,normal, 68px, 60px);
             letter-spacing: 0.4em;
         }
     }
