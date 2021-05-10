@@ -1,0 +1,63 @@
+@import "../global";
+
+.room{
+    background-color: $white;
+    &__img{
+        width: 870px;
+        height: 490px;
+        margin-bottom: 65px;
+    }
+    &__title{
+        @include font($black,$font-mons,normal, 44px, 36px);
+        max-width: 1055px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 97px;
+    }
+    &__subtitle{
+        @include font($black,$font-gar, bold, 72px, 60px);
+        letter-spacing: 0.02em;
+        max-width: 590px;
+        &::before{
+            height: 335px;
+            width: 1px;
+            border: 2px solid #14274A;
+        }
+    }
+    &__text{
+        @include font($black,$font-mons, normal, 40px, 25px);
+        max-width: 530px;
+        margin: 15px 0 30px;
+    }
+    &__button{
+        @include font(#FFFFFF,$font-mons, normal, 24px, 20px);
+        background-color: $brown;
+        padding: 18px 65px 20px;
+        border: none;
+    }
+    &__description{
+        @include font($black,$font-gar, bold, 72px, 60px);
+        margin: 115px 0 26px;
+        &--midle{
+            @include font($black,$font-mons, normal, 37px, 30px);
+        }
+        &--small{
+            @include font($black,$font-mons, normal, 30px, 25px);
+            margin: 19px 0 23px;
+        }
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__sign{
+        margin: 0 10px;
+    }
+    &__signs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 110px;
+    }
+}

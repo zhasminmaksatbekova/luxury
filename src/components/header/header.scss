@@ -1,0 +1,32 @@
+@import "../global";
+.header{
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    &__row{
+        justify-content: space-between;
+        align-items: center;
+    }
+   &__list{
+       @include font($c-white, $font-mons, normal, 30px, 25px);
+       margin-left: 88px;
+       }
+       &__link{
+           color: $c-white;
+           &:first-child{
+            margin-left: 0;
+        }
+        &:hover{
+            font-weight: bold;
+            text-decoration: underline;
+       }
+   }
+   &__menu{
+       display: flex;
+   }
+   &__logo{
+       width: 260px;
+       height: 150px;
+   }
+}

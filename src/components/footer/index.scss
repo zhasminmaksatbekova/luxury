@@ -1,0 +1,25 @@
+@import "../global";
+
+.footer{
+    background-color: $black;
+    padding: 144px 0 65px;
+    &__title{
+        @include font(#FFFFFF, $font-gar, bold, 30px, 25px);     
+    }
+    &__subtitle{
+        margin: 6px 24px 22px;
+        @include font(#FFFFFF, $font-gar, bold, 11px, 9px);     
+    }
+    &__info{
+        max-width: 265px;
+        @include font(#FFFFFF, $font-mons, normal, 17px, 14px);
+    }
+    &__link{
+        @include font(#FFFFFF, $font-mons, normal, 28px, 16px);
+    }
+    &__logo{
+        margin-right: 25px;
+    }
+}
+
+
