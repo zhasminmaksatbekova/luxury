@@ -2,6 +2,7 @@
 
 .facilities{
     padding-top: 82px;
+    background-color: #FFFFFF;
     &__title{
         @include font($black, $font-gar, bold, 72px, 60px);
         text-align: center;
@@ -11,5 +12,25 @@
         text-align: center;
         max-width: 1540px;
         margin: 34px 0 80px;
+    }
+    &__button{
+        text-align: center;
+        @include font($black, $font-mons, bold, 59px, 48px);
+        background-color: #FFFFFF;
+        margin: 0 auto;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 90%;
+        left: 50%;
+        position: absolute;
+    }
+    &__content{
+        margin-bottom: 180px;
+        position: relative;
+        &:last-child{
+            margin-bottom: 0;
+        }
     }
 }
