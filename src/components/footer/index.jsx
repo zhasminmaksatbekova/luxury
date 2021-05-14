@@ -44,15 +44,15 @@ function Footer(){
                             <ul className="footer__list">
                                 <li className="footer__item">
                                     <img className="footer__logo" src={facebook} alt="fb"/>
-                                    <a href="" className="footer__link">Facebook</a>
+                                    <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1637278002&extra_1=s%7Cc%7C313958889108%7Ce%7Cfacebook%20com%7C&placement=&creative=313958889108&keyword=facebook%20com&partner_id=googlesem&extra_2=campaignid%3D1637278002%26adgroupid%3D62332990037%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-334696167%26loc_physical_ms%3D1009827%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjw-e2EBhAhEiwAJI5jg7Dk4_sc_Gdz0YfVxHvckn-ySYEz3qQ6eD3VWYVjURVNBIUnfrul-RoCGwcQAvD_BwE" className="footer__link">Facebook</a>
                                 </li>
                                 <li className="footer__item">
                                     <img className="footer__logo" src={twitter} alt="tw"/>
-                                    <a href="" className="footer__link">Twitter</a>
+                                    <a href="https://twitter.com/" className="footer__link">Twitter</a>
                                 </li>
                                 <li className="footer__item">
                                     <img className="footer__logo" src={instagram} alt=""/>
-                                    <a href="" className="footer__link">Instagram</a>
+                                    <a href="https://www.instagram.com/?hl=ru" className="footer__link">Instagram</a>
                                 </li>
                             </ul>
                         </div>

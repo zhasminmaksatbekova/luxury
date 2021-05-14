@@ -13,16 +13,18 @@ function Room(){
                 {RoomList.map(item => {
                     return (
                         <>
-                                <div className="col-5 room__row">
-                                    <div className="room__major">
-                                       <h4 className="room__subtitle">{item.title}</h4>
-                                       <p className="room__text">{item.desciption}</p>
-                                        <button className="room__button">Explore</button>
-                                    </div>
+                        {/* <div className="room__content"> */}
+                        <div className="col-5 room__row">
+                                <div className="room__major">
+                                     <h4 className="room__subtitle">{item.title}</h4>
+                                     <p className="room__text">{item.desciption}</p>
+                                     <button className="room__button">Explore</button>
+                                </div>
+                             </div>
+                            <div className="col-7">
+                                <img className="room__img" src={item.img} alt="" />
                             </div>
-                    <div className="col-7">
-                        <img className="room__img" src={item.img} alt="" />
-                    </div>
+                        {/* </div> */}
                         </>
                     )
                 })}

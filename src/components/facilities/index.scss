@@ -17,14 +17,11 @@
         text-align: center;
         @include font($black, $font-mons, bold, 59px, 48px);
         background-color: #FFFFFF;
-        margin: 0 auto;
-        border: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         top: 90%;
-        left: 50%;
         position: absolute;
+        height: 75px;
+        width: 670px;
+        left: 20%;
     }
     &__content{
         margin-bottom: 180px;

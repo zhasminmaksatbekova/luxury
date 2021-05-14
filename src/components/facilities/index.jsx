@@ -17,7 +17,7 @@ function Facilities(){
                         <>
                           <div className="facilities__content">
                               <img src={item.img} alt="img" className="facilities__img" />
-                              <button className="facilities__button">{item.button}</button>
+                              <div className="facilities__button">{item.button}</div>
                           </div>
                         </>
                     )
