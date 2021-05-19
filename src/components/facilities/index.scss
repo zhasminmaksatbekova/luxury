@@ -13,19 +13,21 @@
         max-width: 1540px;
         margin: 34px 0 80px;
     }
+    // &__img{
+    //     position: relative;
+    // }
     &__button{
         text-align: center;
         @include font($black, $font-mons, bold, 59px, 48px);
         background-color: #FFFFFF;
-        top: 90%;
-        position: absolute;
         height: 75px;
         width: 670px;
-        left: 20%;
+        @include center;
+        margin: -100px auto 0;
+
     }
     &__content{
         margin-bottom: 180px;
-        position: relative;
         &:last-child{
             margin-bottom: 0;
         }

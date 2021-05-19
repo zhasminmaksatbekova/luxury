@@ -1,6 +1,7 @@
 import "./index.scss"
 import left from "../../assets/img/jpg/left.png"
 import right from "../../assets/img/png/right.png"
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 function Testimonials(){

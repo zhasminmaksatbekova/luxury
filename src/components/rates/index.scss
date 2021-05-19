@@ -1,5 +1,50 @@
 @import "../global";
 
 .rates{
-    
+    padding-top: 80px;
+    &__title{
+        @include font($black, $font-gar, bold, 72px, 60px);
+        text-align: center;
+    }
+    &__text{
+        @include font($black, $font-gar, bold, 29px, 25px);
+        text-align: center;
+        max-width: 1300px;
+        margin: 29px 0 82px;
+    }
+    &__book{
+        width: 100%;
+        height: 250px;
+        @include center;
+        margin-bottom: 60px;
+    }
+    &__description{
+        @include font($black, $font-mons, bold, 30px, 25px);
+    }
+    &__bookbtn{
+        text-align: center;
+        background-color: $brown;
+        padding: 25px 40px;
+        outline: none;
+        border: none;
+        @include font(#FFFFFF, $font-mons, bold, 30px, 25px);
+    }
+    &__button{
+        @include font(#FFFFFF, $font-mons, bold, 73px, 60px);
+        text-align: center;
+        background-color: $black;
+        @include center;
+        height: 140px;
+        margin-top: -8px;
+        &:nth-child(2){
+            margin-top: -50px;
+        }
+    }
+    &__sign{
+        margin: 0 28px 0 100px;
+    }
+    &__bookbtn{
+        margin: 0 100px 0 400px;
+    }
 }
+

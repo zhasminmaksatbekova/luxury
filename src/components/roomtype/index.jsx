@@ -13,8 +13,8 @@ function Room(){
                 {RoomList.map(item => {
                     return (
                         <>
-                        {/* <div className="room__content"> */}
-                        <div className="col-5 room__row">
+                        <div className="row room__content">
+                        <div className="col-5">
                                 <div className="room__major">
                                      <h4 className="room__subtitle">{item.title}</h4>
                                      <p className="room__text">{item.desciption}</p>
@@ -24,7 +24,7 @@ function Room(){
                             <div className="col-7">
                                 <img className="room__img" src={item.img} alt="" />
                             </div>
-                        {/* </div> */}
+                        </div>
                         </>
                     )
                 })}

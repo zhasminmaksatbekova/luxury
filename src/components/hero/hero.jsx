@@ -13,7 +13,7 @@ function Hero(){
                         Book your stay and enjoy Luxury
                         redefined at the most affordable rates.
                     </p>
-                    <Button/>
+                    <div className="hero__button"><Button btnName="book now" /></div>
                 </div>
             </div>
         </div>
@@ -22,3 +22,5 @@ function Hero(){
 }
 
 export default Hero;
+
+

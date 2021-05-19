@@ -24,4 +24,8 @@
         letter-spacing: 0.1em;
         max-width: 580px;
     }
+    &__button{
+        @include center;
+        margin-top: 65px;
+    }
 }

@@ -13,7 +13,9 @@ function Hero(){
                     Book your stay and enjoy Luxury
                     redefined at the most affordable rates.
                 </p>
-                <Button/>
+                <div className="palm__button">
+                    <Button btnName="book now"/>
+                </div>
             </div>
         </div>
     </div>

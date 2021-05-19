@@ -5,3 +5,9 @@
     line-height: $height;
     font-size: $size;
 }
+
+@mixin center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

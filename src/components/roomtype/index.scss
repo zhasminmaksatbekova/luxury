@@ -6,14 +6,14 @@
     &__img{
         min-height: 100%;
         padding-left: 30px;
-        margin-top: 65px;
     }
     &__title{
         @include font($black,$font-mons,normal, 44px, 36px);
         max-width: 1055px;
-        display: flex;
-        align-items: center;
-        margin-bottom: 97px;
+        text-align: center;
+        padding-bottom: 97px;
+        @include center;
+        margin: 0 auto;
     }
     &__subtitle{
         @include font($black,$font-gar, bold, 72px, 60px);
@@ -43,6 +43,7 @@
     &__major{
         border-left: 2px solid #14274A;
         padding-left: 20px;
+
     }
 }
 
